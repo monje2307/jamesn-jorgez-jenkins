@@ -1,0 +1,8 @@
+Pedido creado: ID=1, Cliente=jose, Total=1.0, Estado=PENDIENTE
+Pedido confirmado: ID=1, Guía=0000000001, Estado=EN_PROCESO
+Pedido entregado: ID=1, Guía=0000000001, Estado=ENTREGADO
+Pedido creado: ID=2, Cliente=jorf, Total=4.0, Estado=PENDIENTE
+Pedido cancelado: ID=2, Motivo=no cancelo, Estado=CANCELADO
+Pedido creado: ID=1, Cliente=juan, Total=3.0, Estado=PENDIENTE
+Pedido confirmado: ID=1, Guía=0000000001, Estado=EN_PROCESO
+Pedido entregado: ID=1, Guía=0000000001, Estado=ENTREGADO

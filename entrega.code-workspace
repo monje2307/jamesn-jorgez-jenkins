@@ -1,0 +1,31 @@
+{
+  "folders": [
+    {
+      "path": "C:\\Proyectos\\entrega"
+    }
+  ],
+  "settings": {
+    // Selección automática del intérprete de Python
+    "python.defaultInterpreterPath": "C:\\Proyectos\\entrega\\.venv\\Scripts\\python.exe",
+
+    // Activar linting y análisis estático
+    "python.linting.enabled": true,
+    "python.linting.pylintEnabled": true,
+    "python.analysis.typeCheckingMode": "basic",
+
+    // Configuración de pruebas unitarias
+    "python.testing.unittestEnabled": true,
+    "python.testing.pytestEnabled": false,
+    "python.testing.autoTestDiscoverOnSaveEnabled": true
+  },
+  "extensions": {
+    "recommendations": [
+      "ms-python.python",      // Soporte para Python
+      "ms-python.vscode-pylance", // Motor de análisis avanzado
+      "ms-toolsai.jupyter",    // Jupyter notebooks
+      "eamodio.gitlens",       // Git avanzado
+      "ms-azuretools.vscode-docker" // Opcional si usas contenedores
+    ]
+  }
+}
+
