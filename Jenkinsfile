@@ -20,7 +20,7 @@ pipeline {
             . venv/bin/activate
             export PYTHONPATH=$(pwd)
             echo "PYTHONPATH=$PYTHONPATH"
-            pytest --junitxml=test-results.xml
+            python -m pytest --junitxml=test-results.xml
         '''
     }
 }
