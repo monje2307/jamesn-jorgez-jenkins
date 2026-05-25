@@ -133,4 +133,3 @@ def flujo_pedidos():
 
 if __name__ == "__main__":
     flujo_pedidos()
-
