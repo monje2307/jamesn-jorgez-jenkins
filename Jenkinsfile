@@ -14,12 +14,13 @@ pipeline {
             }
         }
 
-       stage('Ejecutar pruebas') {
+      stage('Ejecutar pruebas') {
     steps {
         sh '''
-        . venv/bin/activate
-        export PYTHONPATH=$WORKSPACE
-        pytest --junitxml=test-results.xml
+            . venv/bin/activate
+            export PYTHONPATH=$(pwd)
+            echo "PYTHONPATH=$PYTHONPATH"
+            pytest --junitxml=test-results.xml
         '''
     }
 }
